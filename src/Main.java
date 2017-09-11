@@ -1,4 +1,4 @@
-import Contest.BasicStructs.Node;
+import contest.BasicStructs.Node;
 
 import java.util.ArrayList;
 

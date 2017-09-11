@@ -1,4 +1,4 @@
-package PracticeCode.SortAlg;
+package practice.sortalg;
 
 /**
  * Created by Lou on 2017/4/11.
