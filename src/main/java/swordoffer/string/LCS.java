@@ -4,8 +4,6 @@ import org.junit.Test;
 
 import java.util.*;
 
-import static org.codehaus.groovy.runtime.DefaultGroovyMethods.swap;
-
 /**
  * Created by louzh on 2017/6/23.
  */
