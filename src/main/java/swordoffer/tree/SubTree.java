@@ -48,7 +48,6 @@ public class SubTree {
 
         public TreeNode(int val) {
             this.val = val;
-
         }
 
     }

@@ -1,6 +1,10 @@
 package swordoffer;
 
+import org.junit.Test;
+
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -15,6 +19,13 @@ class BuildTreeTest {
         for (int i : a) {
             System.out.println(i);
         }
+    }
+
+    @org.junit.jupiter.api.Test
+    void test() {
+        List<Long> list = new ArrayList<>();
+        list.add(null);
+        System.out.println(list.size());
     }
 
 }

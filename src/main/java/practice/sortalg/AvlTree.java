@@ -44,6 +44,18 @@ public class AvlTree<T extends Comparable<T>> {
         return t == null ? -1 : t.height;
     }
 
+    private AvlNode<T> find(T x, AvlNode<T> root) {
+        int result = x.compareTo(root.element);
+        if (result == 0) {
+            return root;
+        }
+        if (result > 0) {
+            return find(x, root.right);
+        } else {
+            return find(x, root.left);
+        }
+    }
+
     private AvlNode<T> insert(T x, AvlNode<T> t) {
         if (t == null) return new AvlNode<T>(x, null, null);
         int compareResult = compare(x, t.element);

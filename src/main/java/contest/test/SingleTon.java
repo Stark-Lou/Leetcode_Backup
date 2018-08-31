@@ -8,10 +8,16 @@ public class SingleTon {
     public SingleTon() {
         count1++;
         count2++;
+        System.out.println("SingleTon Contractor");
     }
 
     public static SingleTon getInstance() {
         return singleTon;
+    }
+
+    @Override
+    public String toString() {
+        return "SingleTon{}";
     }
 
     public static void main(String[] args) {
